@@ -16,7 +16,7 @@ jobs:
           ISSUE_TITLE="${{ github.event.issue.title }}"
           ISSUE_BODY="${{ github.event.issue.body }}"
           REPO_OWNER="destination-owner"
-          REPO_NAME="tau-introduction-to-playwright"
+          REPO_NAME="test-sync"
 
           curl -X POST -H "Authorization: token $GH_TOKEN" \
           -H "Accept: application/vnd.github.v3+json" \
